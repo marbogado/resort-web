@@ -1,0 +1,125 @@
+$color: LightSeaGreen;
+
+body {
+  background-image: url(images/background.jpg);
+}
+
+header {
+    nav {
+        display: flex;
+    }
+    .list-container {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        .item {
+            list-style-type: none;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+
+.link {
+    padding: 15px;
+    background-color: $color;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        background-color: grey;
+        color: black;
+    }
+}
+
+main {
+  width: 100%;
+  display: flex;
+  .box {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: grey;
+      .date {
+        color: grey;
+        font-size: 5px;
+        margin-top: 0;
+      }
+    }
+    .blog {
+      margin: 5px;
+      background-color: white;
+      padding: 10px;
+      h3 {
+        color: grey;
+        margin: 0;
+      }
+    }
+    .testimonials {
+      margin: 5px;
+      background-color: white;
+      padding: 10px;
+      span {
+        color: $color;
+        font-weight: bold;
+        display: block;
+        text-align: right;
+      }
+    }
+  }
+}
+
+h2 {
+  color: $color;
+  margin: 0;
+}
+
+aside {
+  margin: 6px;
+  display: inline-block;
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+footer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  background-color: grey;
+}
+.foot {
+  width: 70%;
+  .list-footer {
+    display: flex;
+    width: 100%;
+    .item {
+      list-style-type: none;
+      text-align: center;
+    }
+  }
+}
+
+.link2 {
+  padding: 15px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    color: white;
+  }
+}
+
+.media {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  i {
+    padding: 20px;
+    color: gainsboro;
+    font-size: 30px;
+  }
+}

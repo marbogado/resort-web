@@ -1,0 +1,124 @@
+body {
+  background-image: url(images/background.jpg);
+}
+
+header nav {
+  display: flex;
+}
+header .list-container {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+header .list-container .item {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.link {
+  padding: 15px;
+  background-color: LightSeaGreen;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link:hover {
+  background-color: grey;
+  color: black;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+main .box {
+  display: flex;
+  flex-direction: column;
+}
+main .box p {
+  color: grey;
+}
+main .box p .date {
+  color: grey;
+  font-size: 5px;
+  margin-top: 0;
+}
+main .box .blog {
+  margin: 5px;
+  background-color: white;
+  padding: 10px;
+}
+main .box .blog h3 {
+  color: grey;
+  margin: 0;
+}
+main .box .testimonials {
+  margin: 5px;
+  background-color: white;
+  padding: 10px;
+}
+main .box .testimonials span {
+  color: LightSeaGreen;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+}
+
+h2 {
+  color: LightSeaGreen;
+  margin: 0;
+}
+
+aside {
+  margin: 6px;
+  display: inline-block;
+}
+aside .images {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  background-color: grey;
+}
+
+.foot {
+  width: 70%;
+}
+.foot .list-footer {
+  display: flex;
+  width: 100%;
+}
+.foot .list-footer .item {
+  list-style-type: none;
+  text-align: center;
+}
+
+.link2 {
+  padding: 15px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link2:hover {
+  color: white;
+}
+
+.media {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.media i {
+  padding: 20px;
+  color: gainsboro;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
